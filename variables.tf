@@ -2,7 +2,6 @@ variable "region" {
 }
 variable "ingress_ports" {
   type    = list(any)
-  default = [22]
   default = [22, 80, 443]
 }
 
@@ -50,4 +49,4 @@ variable "tags" {
   type    = list(any)
   default = ["terraform-vpc-1905", "terraform-ig-1905", "terraform-public-subnet-1905","terraform-private-subnet-1905","terraform-public-rt-1905","terraform-private-rt-1905","terraform-eip-1905","terraform-nat-gw-1905"]
   }
-}
+

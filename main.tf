@@ -1,6 +1,4 @@
 /*
-=======
->>>>>>> ace17fa89d6600c1854403830e2decfd6d512810
 resource "aws_key_pair" "my-key" {
   key_name   = "Devops14-2021-tf-key"
   public_key = file("${path.module}/my_file.txt")

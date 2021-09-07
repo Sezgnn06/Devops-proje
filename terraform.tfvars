@@ -1,5 +1,4 @@
 instance_type       = "t2.micro"
-instance_type = "t2.micro"
 protocol            = "tcp"
 region              = "us-east-2"
 cidr                = ["0.0.0.0/0"]
